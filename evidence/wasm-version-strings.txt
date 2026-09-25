@@ -1,0 +1,203 @@
+ 1%%  bug in LAME encoding library
+GeogGeodeticDatumGeoKey
+Ogg Speex
+3gp,aac,avi,ac3,eac3,flac,mkv,m3u8,m4a,m4s,m4v,mpg,mov,mp2,mp3,mp4,mpeg,mpegts,ogg,ogv,oga,ts,vob,wav
+lame_encode_frame_init
+Invalid OggVP8 header packet
+lame_encode_buffer_sample_t
+libopus
+libopus Opus
+Ogg Opus
+90%%  LAME compiled with buggy version of gcc using advanced optimizations
+lame_init_params
+stream_index < ogg->nstreams
+libvorbis
+ogg_packet is larger than 65535 bytes
+x264 - core %d%s - H.264/MPEG-4 AVC codec - Copy%s 2003-2022 - http://www.videolan.org/x264.html - options: %s
+Ogg (audio/video/Speex/Opus) muxer
+libwebp encoder
+libmp3lame encoder
+src/zimg/colorspace/colorspace.cpp
+libwebp
+lame_get_interChRatio
+Ogg Audio
+Ogg Video
+invalid FreeType version
+emscripten
+Emscripten
+libwebp_anim
+Valid Logging level -1:none 0:error 1:warning 2:info 3:debug 4:full
+set logging level
+information logging level
+verbose logging level
+force frame logging level
+--target-os=none --arch=x86_32 --enable-cross-compile --disable-asm --disable-stripping --disable-programs --disable-doc --disable-debug --disable-runtime-cpudetect --disable-autodetect --nm=emnm --ar=emar --ranlib=emranlib --cc=emcc --cxx=em++ --objcc=emcc --dep-cc=emcc --extra-cflags='-I/opt/inclu
+audio/ogg
+video/ogg
+application/ogg
+Changing stream parameters in multistream ogg
+Direct Show Samples embedded in Ogg
+oggpagesize
+ogg_packet has negative size
+set font loading flags for libfreetype
+FT_Init_FreeType
+Lavc libmp3lame
+Lavf lame
+toggle
+libwebp WebP image
+Raster: FreeType %d.%d.%d
+Lavf57.%d.%d
+x264 - core %d
+libopusdec
+lame.c
+libavcodec/libvorbisenc.c
+libavformat/oggdec.c
+theora
+libtheora
+libtheora Theora
+FREETYPE_PROPERTIES
+lame_get_VBR
+WebM Project VP9 Encoder v1.13.1
+WebM Project VP8 Encoder v1.13.1
+WebM Project VP9 Decoder v1.13.1
+WebM Project VP8 Decoder v1.13.1
+Lavc59.37.100
+Lavf59.27.100
+x264 - core 0000
+theora 0
+Render text subtitles onto input video using the libass library.
+Render ASS subtitles onto input video using the libass library.
+Draw text on top of video frames using libfreetype library.
+Set preferred Ogg page size.
+VN:Lavf59.27.100,
+Xiph.Org libtheora 1.1 20090822 (Thusnelda)
+Shaper: FriBidi 1.0.9 (SIMPLE) HarfBuzz-ng %s (COMPLEX)
+emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.40 (5c27e79dd0a9c4e27ef2326841698cdd4f6b5784)
+libmp3lame MP3 (MPEG audio layer 3)
+harfbuzz 
+Lavc59.37.100 
+HEVC encoder version %s
+Could not load FreeType: %s
+Could not create a libass track
+ogg_packet: curidx=%i
+Theora configuration info missing
+%sconfiguration: --target-os=none --arch=x86_32 --enable-cross-compile --disable-asm --disable-stripping --disable-programs --disable-doc --disable-debug --disable-runtime-cpudetect --disable-autodetect --nm=emnm --ar=emar --ranlib=emranlib --cc=emcc --cxx=em++ --objcc=emcc --dep-cc=emcc --extra-cfl
+Set it with -content_type audio/ogg
+Set it with -content_type application/ogg
+Old (<alpha3) Theora bitstream, flipped image
+theora_encode_init failed
+ogg_packet: idx=%d pstart=%d psize=%d segp=%d nsegs=%d
+Unknown OggVP8 version %d.%d
+theora kfgshift %d, vrev %d
+Unknown Theora config packet: %d
+theora_encode_packetout failed [%d]
+theora_encode_YUVin failed (%s) [%d]
+Theora bitstream version %X
+Invalid time base in theora stream, assuming 25 FPS
+error while loading freetype font.
+Could not initialize libass.
+New streams are not supposed to be added in between Ogg context save/restore operations.
+Could not initialize libass renderer.
+Error parsing Ogg TS header.
+Using libwebp for RGB-to-YUV conversion. You may want to consider passing in YUV instead for lossy encoding.
+libx265 version is %d, must be at least 85 for gray encoding.
+Using libwebp for YUV-to-RGB conversion. You may want to consider passing in RGB instead for lossless encoding.
+ is not implemented. Update your FFmpeg version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.
+Error parsing Ogg extradata.
+Too old or unsupported Theora (%x)
+lame: output buffer too small (buffer index: %d, free bytes: %d)
+Could not create a libass track when reading file '%s'
+Streaming Ogg but appropriate content type NOT set!
+Invalid Ogg vers!
+a=rtpmap:%d theora/90000
+V_THEORA
+yyyZhniZzzzZbarAnmrAgneBlryCaveDroeGkerGrjuGuruGgnaHinaHrbeHariHadnKanaKooaLntaLmylMayrOlmaTuleTiahTtbiTopoBiarBsnaCrehCihtErmhKgnoMrmyMmagOrnuRhniScrySaahTiiiYtrsDhtoGlatIdhuBonaHglgTbgaTtrpCbmiLbniLamsOwahSelaTragUiguBtpoCgalGrahKulaToepXolySgnfTilaBxusXookNgahPxnhPiraCmahCilaKcpeLicyLidyLkclOgnjR
+ xag ORO zag ORO mbg WAG ecg HTA fcg PPC lcg PPC rcg PPC adg JAR ogg NOG ahg RBB khg NRK ohg RBB big PPC lig0LIG ujg JAR pkg PKG pkg LPK dlg NAN zmg
+N4zimg5error13InternalErrorE
+N4zimg5graph12_GLOBAL__N_110SourceNodeE
+N4zimg5graph9GraphNodeE
+N4zimg5graph12_GLOBAL__N_18SinkNodeE
+N4zimg5graph12_GLOBAL__N_115FilterNodeColorILi1ELi1ELi1ELi1EEE
+N4zimg5graph12_GLOBAL__N_114FilterNodeBaseE
+N4zimg5graph12_GLOBAL__N_115FilterNodeColorILi1ELi1ELi1ELi0EEE
+N4zimg5graph12_GLOBAL__N_115FilterNodeColorILin1ELin1ELin1ELin1EEE
+N4zimg5graph12_GLOBAL__N_114FilterNodeGreyILi0ELb1EEE
+N4zimg5graph12_GLOBAL__N_114FilterNodeGreyILi1ELb1EEE
+N4zimg5graph12_GLOBAL__N_114FilterNodeGreyILi2ELb1EEE
+N4zimg5graph12_GLOBAL__N_114FilterNodeGreyILi3ELb1EEE
+N4zimg5graph12_GLOBAL__N_114FilterNodeGreyILi0ELb0EEE
+N4zimg5graph12_GLOBAL__N_114FilterNodeGreyILi1ELb0EEE
+N4zimg5graph12_GLOBAL__N_114FilterNodeGreyILi2ELb0EEE
+N4zimg5graph12_GLOBAL__N_114FilterNodeGreyILi3ELb0EEE
+N4zimg5graph10CopyFilterE
+N4zimg5graph15ImageFilterBaseE
+N4zimg5graph11ImageFilterE
+N4zimg5graph15RGBExtendFilterE
+N4zimg5graph21ValueInitializeFilterE
+N4zimg5graph17PremultiplyFilterE
+N4zimg5graph19UnpremultiplyFilterE
+N4zimg5graph11FilterGraphE
+NSt3__220__shared_ptr_pointerIPN4zimg5graph10CopyFilterENS_14default_deleteIS3_EENS_9allocatorIS3_EEEE
+NSt3__214default_deleteIN4zimg5graph10CopyFilterEEE
+N4zimg5error18UserCallbackFailedE
+N4zimg6resize11PointFilterE
+N4zimg6resize6FilterE
+N4zimg6resize14BilinearFilterE
+N4zimg6resize13BicubicFilterE
+N4zimg6resize14Spline16FilterE
+N4zimg6resize14Spline36FilterE
+N4zimg6resize14Spline64FilterE
+N4zimg6resize13LanczosFilterE
+N4zimg5error11OutOfMemoryE
+?N4zimg10colorspace19MatrixOperationImplE
+N4zimg10colorspace9OperationE
+N4zimg10colorspace12_GLOBAL__N_116MatrixOperationCE
+N4zimg10colorspace12_GLOBAL__N_115GammaOperationCE
+N4zimg10colorspace12_GLOBAL__N_117AribB67OperationCE
+N4zimg10colorspace12_GLOBAL__N_124AribB67InverseOperationCE
+N4zimg10colorspace12_GLOBAL__N_117CLToRGBOperationCE
+N4zimg10colorspace12_GLOBAL__N_117CLToYUVOperationCE
+NSt3__210__function6__funcINS_6__bindIRPFNS_10unique_ptrIN4zimg10colorspace9OperationENS_14default_deleteIS6_EEEERKNS5_20ColorspaceDefinitionESC_RKNS5_15OperationParamsENS4_8CPUClassEEJSC_SC_RKNS_12placeholders4__phILi1EEERKNSL_ILi2EEEEEENS_9allocatorISS_EEFS9_SF_SG_EEE
+NSt3__210__function6__baseIFNS_10unique_ptrIN4zimg10colorspace9OperationENS_14default_deleteIS5_EEEERKNS4_15OperationParamsENS3_8CPUClassEEEE
+NSt3__26__bindIRPFNS_10unique_ptrIN4zimg10colorspace9OperationENS_14default_deleteIS4_EEEERKNS3_20ColorspaceDefinitionESA_RKNS3_15OperationParamsENS2_8CPUClassEEJSA_SA_RKNS_12placeholders4__phILi1EEERKNSJ_ILi2EEEEEE
+NSt3__218__weak_result_typeIPFNS_10unique_ptrIN4zimg10colorspace9OperationENS_14default_deleteIS4_EEEERKNS3_20ColorspaceDefinitionESA_RKNS3_15OperationParamsENS2_8CPUClassEEEE
+N4zimg10colorspace12_GLOBAL__N_124ColorspaceConversionImplE
+N4zimg5depth12_GLOBAL__N_116IntegerLeftShiftE
+N4zimg5depth12_GLOBAL__N_114ConvertToFloatE
+N4zimg5depth12_GLOBAL__N_114ErrorDiffusionE
+N4zimg5depth12_GLOBAL__N_115NoneDitherTableE
+N4zimg5depth12_GLOBAL__N_118OrderedDitherTableE
+UN4zimg5depth12_GLOBAL__N_116BayerDitherTableE
+N4zimg5depth12_GLOBAL__N_117RandomDitherTableE
+N4zimg5depth12_GLOBAL__N_113OrderedDitherE
+N4zimg8unresize13UnresizeImplHE
+N4zimg8unresize13UnresizeImplVE
+N4zimg8unresize12_GLOBAL__N_115UnresizeImplH_CE
+N4zimg8unresize12_GLOBAL__N_115UnresizeImplV_CE
+N4zimg6resize11ResizeImplHE
+N4zimg6resize11ResizeImplVE
+N4zimg6resize12_GLOBAL__N_113ResizeImplH_CE
+N4zimg6resize12_GLOBAL__N_113ResizeImplV_CE
+N4zimg5error16InvalidImageSizeE
+N4zimg5error20GreyscaleSubsamplingE
+N4zimg5error10LogicErrorE
+N4zimg5error19ColorFamilyMismatchE
+N4zimg5error22UnsupportedSubsamplingE
+N4zimg5error17ImageNotDivisibleE
+N4zimg5error16BitDepthOverflowE
+N4zimg5graph12_GLOBAL__N_121DefaultFilterObserverE
+N4zimg5graph14FilterObserverE
+NSt3__220__shared_ptr_emplaceIN4zimg5graph15RGBExtendFilterENS_9allocatorIS3_EEEE
+NSt3__220__shared_ptr_pointerIPN4zimg5graph11ImageFilterENS_14default_deleteIS3_EENS_9allocatorIS3_EEEE
+NSt3__214default_deleteIN4zimg5graph11ImageFilterEEE
+NSt3__220__shared_ptr_emplaceIN4zimg5graph21ValueInitializeFilterENS_9allocatorIS3_EEEE
+NSt3__220__shared_ptr_emplaceIN4zimg5graph17PremultiplyFilterENS_9allocatorIS3_EEEE
+NSt3__220__shared_ptr_emplaceIN4zimg5graph19UnpremultiplyFilterENS_9allocatorIS3_EEEE
+N4zimg5error22ResamplingNotAvailableE
+N4zimg5error14EnumOutOfRangeE
+N4zimg5error15IllegalArgumentE
+N4zimg5error9ExceptionE
+N4zimg5error22NoColorspaceConversionE
+N4zimg5error20UnsupportedOperationE
+|17zimg_filter_graph
+Px^OgG

@@ -1,0 +1,208 @@
+{
+  "shippedBinary": {
+    "package": "@ffmpeg/core@0.12.10 (npm shasum 3177e88852bfbfaad5d258e9e0ac1fd9dffd3223, published 2025-01-07T10:13:14Z)",
+    "ffmpeg-core.js sha256": "b266ab5b952555881dd6310663986994a182acb2b7ff25cf10a25f7a37ac2b21",
+    "ffmpeg-core.wasm sha256": "9f57947a5bd530d8f00c5b3f2cb2a3492faa7e5d823315342d6a8656d0a6b7b7"
+  },
+  "buildRecipe": {
+    "repository": "https://github.com/ffmpegwasm/ffmpeg.wasm",
+    "commit": "71aa99d37c02a7b4c435275ca9ef50e612f6efa1",
+    "commitMessage": "RELEASE: @ffmpeg/core and @ffmpeg/core-mt v0.12.10",
+    "commitDate": "2025-01-07T10:12:48Z",
+    "tag": "v12.15",
+    "file": "src/ffmpeg.wasm-core-v0.12.10-release-71aa99d37c02.tar.gz",
+    "buildInputsLastChanged": "bd903bbf18 2024-08-30 (build/, src/fftools/); Dockerfile last changed e0d4c62a22 2023-12-25"
+  },
+  "notTheCoreSource": {
+    "commit": "c3a763857c5e615ae8674715ad5e4f63ff469e9d",
+    "tag": "v0.12.10",
+    "why": "the @ffmpeg/ffmpeg 0.12.10 release (2023-12-25); packages/core there is 0.12.6 and its build/ and src/fftools lack the ffprobe export and -sENVIRONMENT=worker that the shipped ffmpeg-core.js has",
+    "file": "extra/ffmpeg.wasm-v0.12.10-c3a763857c5e.tar.gz"
+  },
+  "components": [
+    {
+      "component": "FFmpeg",
+      "repository": "https://github.com/FFmpeg/FFmpeg",
+      "dockerfileRef": "n5.1.4",
+      "refKind": "tag",
+      "commit": "4729204c17f756e186d622060088371d10b34f7e",
+      "commitDate": "2023-11-09T23:32:27Z",
+      "refActivitySince2023": [
+        [
+          "2023-11-10T00:00:43Z",
+          "branch_deletion",
+          "000000000000"
+        ]
+      ],
+      "file": "src/FFmpeg-n5.1.4-4729204c17f7.tar.gz"
+    },
+    {
+      "component": "x264",
+      "repository": "https://github.com/ffmpegwasm/x264",
+      "dockerfileRef": "4-cores",
+      "refKind": "branch",
+      "commit": "33cac6b77d5b9259c552156013a817ab23119612",
+      "commitDate": "2022-08-22T01:45:45Z",
+      "refActivitySince2023": [],
+      "file": "src/x264-4-cores-33cac6b77d5b.tar.gz"
+    },
+    {
+      "component": "x265",
+      "repository": "https://github.com/ffmpegwasm/x265",
+      "dockerfileRef": "3.4",
+      "refKind": "tag",
+      "commit": "2bb5520e9596f361bf0ed81b3b8da0d7fd999069",
+      "commitDate": "2020-05-29T17:39:35Z",
+      "refActivitySince2023": [],
+      "file": "src/x265-3.4-2bb5520e9596.tar.gz"
+    },
+    {
+      "component": "libvpx",
+      "repository": "https://github.com/ffmpegwasm/libvpx",
+      "dockerfileRef": "v1.13.1",
+      "refKind": "tag",
+      "commit": "10b9492dcf05b652e2e4b370e205bd605d421972",
+      "commitDate": "2023-09-29T22:06:14Z",
+      "refActivitySince2023": [],
+      "file": "src/libvpx-v1.13.1-10b9492dcf05.tar.gz"
+    },
+    {
+      "component": "lame",
+      "repository": "https://github.com/ffmpegwasm/lame",
+      "dockerfileRef": "master",
+      "refKind": "branch",
+      "commit": "2badea1974ae36cb8312afe99cff1e6b3b5decee",
+      "commitDate": "2020-10-29T03:19:54Z",
+      "refActivitySince2023": [],
+      "file": "src/lame-master-2badea1974ae.tar.gz"
+    },
+    {
+      "component": "ogg",
+      "repository": "https://github.com/ffmpegwasm/Ogg",
+      "dockerfileRef": "v1.3.4",
+      "refKind": "tag",
+      "commit": "bada45718453ac27b56773ae663f7e65112f6a6e",
+      "commitDate": "2019-08-30T23:05:52Z",
+      "refActivitySince2023": [],
+      "file": "src/ogg-v1.3.4-bada45718453.tar.gz"
+    },
+    {
+      "component": "theora",
+      "repository": "https://github.com/ffmpegwasm/theora",
+      "dockerfileRef": "v1.1.1",
+      "refKind": "tag",
+      "commit": "7ffd8b2ecfc2d93ae5e16028e7528e609266bfbf",
+      "commitDate": "2009-10-01T18:00:57Z",
+      "refActivitySince2023": [],
+      "file": "src/theora-v1.1.1-7ffd8b2ecfc2.tar.gz"
+    },
+    {
+      "component": "opus",
+      "repository": "https://github.com/ffmpegwasm/opus",
+      "dockerfileRef": "v1.3.1",
+      "refKind": "tag",
+      "commit": "e85ed7726db5d677c9c0677298ea0cb9c65bdd23",
+      "commitDate": "2019-04-12T20:26:57Z",
+      "refActivitySince2023": [],
+      "file": "src/opus-v1.3.1-e85ed7726db5.tar.gz"
+    },
+    {
+      "component": "vorbis",
+      "repository": "https://github.com/ffmpegwasm/vorbis",
+      "dockerfileRef": "v1.3.3",
+      "refKind": "tag",
+      "commit": "7798164043197d7e33f02de4353ce2aa5b248225",
+      "commitDate": "2012-02-03T22:20:36Z",
+      "refActivitySince2023": [],
+      "file": "src/vorbis-v1.3.3-779816404319.tar.gz"
+    },
+    {
+      "component": "zlib",
+      "repository": "https://github.com/ffmpegwasm/zlib",
+      "dockerfileRef": "v1.2.11",
+      "refKind": "tag",
+      "commit": "cacf7f1d4e3d44d871b605da3b647f07d718623f",
+      "commitDate": "2017-01-15T17:29:40Z",
+      "refActivitySince2023": [],
+      "file": "src/zlib-v1.2.11-cacf7f1d4e3d.tar.gz"
+    },
+    {
+      "component": "libwebp",
+      "repository": "https://github.com/ffmpegwasm/libwebp",
+      "dockerfileRef": "v1.3.2",
+      "refKind": "tag",
+      "commit": "ca332209cb5567c9b249c86788cb2dbf8847e760",
+      "commitDate": "2023-09-13T22:11:07Z",
+      "refActivitySince2023": [],
+      "file": "src/libwebp-v1.3.2-ca332209cb55.tar.gz"
+    },
+    {
+      "component": "freetype2",
+      "repository": "https://github.com/ffmpegwasm/freetype2",
+      "dockerfileRef": "VER-2-10-4",
+      "refKind": "tag",
+      "commit": "6a2b3e4007e794bfc6c91030d0ed987f925164a8",
+      "commitDate": "2020-10-20T05:13:33Z",
+      "refActivitySince2023": [],
+      "file": "src/freetype2-VER-2-10-4-6a2b3e4007e7.tar.gz"
+    },
+    {
+      "component": "fribidi",
+      "repository": "https://github.com/fribidi/fribidi",
+      "dockerfileRef": "v1.0.9",
+      "refKind": "tag",
+      "commit": "f9e8e71a6fbf4a4619481284c9f484d10e559995",
+      "commitDate": "2020-03-02T16:04:18Z",
+      "refActivitySince2023": [],
+      "file": "src/fribidi-v1.0.9-f9e8e71a6fbf.tar.gz"
+    },
+    {
+      "component": "harfbuzz",
+      "repository": "https://github.com/harfbuzz/harfbuzz",
+      "dockerfileRef": "5.2.0",
+      "refKind": "tag",
+      "commit": "4a1d891c6317d2c83e5f3c2607ec5f5ccedffcde",
+      "commitDate": "2022-09-17T01:19:29Z",
+      "refActivitySince2023": [],
+      "file": "src/harfbuzz-5.2.0-4a1d891c6317.tar.gz"
+    },
+    {
+      "component": "libass",
+      "repository": "https://github.com/libass/libass",
+      "dockerfileRef": "0.15.0",
+      "refKind": "tag",
+      "commit": "d149636f502f5774ae1a8fb4c554b122674393b2",
+      "commitDate": "2020-10-27T04:08:29Z",
+      "refActivitySince2023": [],
+      "file": "src/libass-0.15.0-d149636f502f.tar.gz"
+    },
+    {
+      "component": "zimg",
+      "repository": "https://github.com/sekrit-twc/zimg",
+      "dockerfileRef": "release-3.0.5",
+      "refKind": "tag",
+      "commit": "e5b0de6bebbcbc66732ed5afaafef6b2c7dfef87",
+      "commitDate": "2023-06-30T17:55:27Z",
+      "refActivitySince2023": [],
+      "file": "src/zimg-release-3.0.5-e5b0de6bebbc.tar.gz"
+    },
+    {
+      "component": "emscripten",
+      "repository": "https://github.com/emscripten-core/emscripten",
+      "dockerfileRef": "3.1.40",
+      "refKind": "tag",
+      "commit": "5c27e79dd0a9c4e27ef2326841698cdd4f6b5784",
+      "commitDate": "2023-05-26T23:36:13Z",
+      "refActivitySince2023": [],
+      "file": "src/emscripten-3.1.40-5c27e79dd0a9.tar.gz"
+    }
+  ],
+  "sdl2Port": {
+    "repository": "https://github.com/libsdl-org/SDL",
+    "tag": "release-2.24.2",
+    "commit": "55b03c7493a7abed33cf803d1380a40fa8af903f",
+    "pin": "emscripten 3.1.40 tools/ports/sdl2.py sha512 b178bdc8...ad5a3c matched the downloaded zip",
+    "linked": "not observed: ffmpeg-core.js has no SDL glue; the only wasm 'SDL' strings are codec names",
+    "file": "src/SDL2-release-2.24.2-emscripten-port.zip"
+  }
+}
